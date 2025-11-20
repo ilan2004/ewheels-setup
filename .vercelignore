@@ -1,0 +1,7 @@
+# Ignore large setup files - these should be hosted on GitHub Releases
+public/*.exe
+public/EV Wheels Management System-Setup.exe
+
+# Error logs
+error.log
+error2.log

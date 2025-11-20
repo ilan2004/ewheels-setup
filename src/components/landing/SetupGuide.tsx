@@ -34,7 +34,11 @@ export function SetupGuide() {
                                 <p className="mt-2 text-foreground">Click the button below to get the Windows installer.</p>
                             </div>
                             <Button className="w-full" size="lg" asChild>
-                                <Link href="/EV Wheels Management System-Setup.exe" download>
+                                <Link
+                                    href="https://github.com/ilan2004/ewheels-setup/releases/latest/download/EV-Wheels-Management-System-Setup.exe"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
                                     Download Windows Installer (.exe)
                                 </Link>
                             </Button>

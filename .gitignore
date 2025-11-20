@@ -40,3 +40,7 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 public/EV Wheels Management System-Setup.exe
+
+# Error logs
+error.log
+error2.log
