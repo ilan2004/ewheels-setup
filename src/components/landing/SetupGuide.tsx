@@ -35,7 +35,7 @@ export function SetupGuide() {
                             </div>
                             <Button className="w-full" size="lg" asChild>
                                 <Link
-                                    href="https://github.com/ilan2004/ewheels-setup/releases/download/v1/EV-Wheels-Management-System-Setup.exe"
+                                    href="https://github.com/ilan2004/ewheels-setup/releases/download/v1/EV.Wheels.Management.System-Setup.exe"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
