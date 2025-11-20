@@ -1,0 +1,21 @@
+
+> landing-page@0.1.0 dev
+> next dev
+
+   Γû▓ Next.js 16.0.3 (Turbopack)
+   - Local:         http://localhost:3000
+   - Network:       http://192.168.192.1:3000
+
+ Γ£ô Starting...
+E:\All Softwares\Ev\node_modules\.pnpm\next@16.0.3_@babel+core@7.2_a6e7fe7b2107bfd5c9e45031e322c5c3\node_modules\next\dist\build\utils.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+E:\All Softwares\Ev\node_modules\.pnpm\next@16.0.3_@babel+core@7.2_a6e7fe7b2107bfd5c9e45031e322c5c3\node_modules\next\dist\server\dev\hot-reloader-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+Error: Turbopack build failed with 1 errors:
+./src/app
+Error: Next.js inferred your workspace root, but it may not be correct.
+    We couldn't find the Next.js package (next/package.json) from the project directory: E:\All Softwares\ewheels setup\src\app
+     To fix this, set turbopack.root in your Next.js config, or ensure the Next.js package is resolvable from this directory.
+    Note: For security and performance reasons, files outside of the project directory will not be compiled.
+    See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+
+    at ignore-listed frames
+[?25h
