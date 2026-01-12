@@ -16,7 +16,9 @@ Since the EV Wheels Management System setup file is too large for Vercel (162MB)
    - **Tag version**: `v1.0.0` (or your current version)
    - **Release title**: `EV Wheels Management System v1.0.0`
    - **Description**: Add release notes (what's new, features, etc.)
-   - **Attach files**: Drag and drop `EV-Wheels-Management-System-Setup.exe`
+   - **Attach files**: 
+         - Drag and drop `EV-Wheels-Management-System-Setup.exe`
+         - Drag and drop `app-release.apk`
    - Click "Publish release"
 
 4. **Verify the Download Link**:

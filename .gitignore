@@ -39,7 +39,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
-public/EV Wheels Management System-Setup.exe
+public/EV-Wheels-Management-System-Setup.exe
+public/app-release.apk
 
 # Error logs
 error.log

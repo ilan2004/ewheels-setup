@@ -35,7 +35,7 @@ export function SetupGuide() {
                             </div>
                             <Button className="w-full" size="lg" asChild>
                                 <Link
-                                    href="https://github.com/ilan2004/ewheels-setup/releases/download/v1.1/EV.Wheels.Management.System-Setup.exe"
+                                    href="https://github.com/ilan2004/ewheels-setup/releases/latest/download/EV-Wheels-Management-System-Setup.exe"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
@@ -54,6 +54,44 @@ export function SetupGuide() {
                                 <div className="flex items-center gap-2">
                                     <CheckCircle2 className="h-4 w-4 text-green-500" />
                                     <span>Offline support</span>
+                                </div>
+                            </div>
+                        </CardContent>
+                    </Card>
+
+                    {/* Android App Installer */}
+                    <Card className="mt-8">
+                        <CardHeader>
+                            <CardTitle className="flex items-center gap-2">
+                                <Terminal className="h-6 w-6 text-primary" />
+                                Android App
+                            </CardTitle>
+                            <CardDescription>
+                                For mobile access to the management system.
+                            </CardDescription>
+                        </CardHeader>
+                        <CardContent className="space-y-6">
+                            <div className="rounded-lg bg-muted p-4 font-mono text-sm">
+                                <p className="text-muted-foreground"># Download the Android APK</p>
+                                <p className="mt-2 text-foreground">Click the button below to get the Android app.</p>
+                            </div>
+                            <Button className="w-full" size="lg" asChild>
+                                <Link
+                                    href="https://github.com/ilan2004/ewheels-setup/releases/latest/download/app-release.apk"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    Download Android App (.apk)
+                                </Link>
+                            </Button>
+                            <div className="space-y-2 text-sm text-muted-foreground">
+                                <div className="flex items-center gap-2">
+                                    <CheckCircle2 className="h-4 w-4 text-green-500" />
+                                    <span>Mobile optimized</span>
+                                </div>
+                                <div className="flex items-center gap-2">
+                                    <CheckCircle2 className="h-4 w-4 text-green-500" />
+                                    <span>Real-time updates</span>
                                 </div>
                             </div>
                         </CardContent>
