@@ -1,4 +1,5 @@
 import { Features } from "@/components/landing/Features";
+import Link from "next/link";
 import { Hero } from "@/components/landing/Hero";
 import { SetupGuide } from "@/components/landing/SetupGuide";
 import { Separator } from "@/components/ui/separator";
@@ -17,6 +18,11 @@ export default function Home() {
           <p className="mt-2">
             Built with Next.js, Tailwind CSS, and shadcn/ui.
           </p>
+          <div className="mt-4">
+            <Link href="/privacy-policy" className="hover:underline hover:text-foreground transition-colors">
+              Privacy Policy
+            </Link>
+          </div>
         </div>
       </footer>
     </main>
